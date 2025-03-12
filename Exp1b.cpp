@@ -5,7 +5,6 @@ class Student{
    public:string StudentName;
    int StudentId;
    float Marks,per;
-    //char Grade;
     public:Student(string Name,int Id,float Mark){
         StudentName=Name;
         StudentId=Id;

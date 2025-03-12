@@ -62,6 +62,7 @@ class Student{
     }
 };
 int main(){
+ 
     Student obj[5]={{"Ram",101,450},{"Sham",1012,480},{"Sita",103,350},{"Gita",104,250},{"Raman",105,300}};
     int i;char res;int SID;
     for(i=0;i<5;i++){
