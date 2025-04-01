@@ -1,6 +1,6 @@
-/*class activity:
+   /*class activity:
     create a employee Management System,create a class with name employee,
-    with attributes like, EmpID,EmpNmae,Address.
+    with attributes like, EmpID,EmpName,Address.
     Use default Constructor that initialize default values,
     use paramerized constructor to initialize employee details,
     member function InputDetails() to accept input from user,
@@ -29,7 +29,7 @@
             cin>>empname;
             cout<<"enter the employee address= ";
             cin>>address;
-        }
+        }        
         public:void display()
         {
             cout<<"employee id= "<<empid<<endl;
