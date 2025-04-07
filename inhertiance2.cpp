@@ -1,18 +1,15 @@
-#include<iostream>
+/*#include<iostream>
 using namespace std;
-
 class MyApp {
 public:
     void Message() {
-        cout<<"Welcome to my Application" << endl;
+        cout<<"Welcome to my Application"<<endl;
     }
 };
-
 class StudentInfo:public MyApp {
 private:
     string name,regno,coursename;
     int pin1=123;
-
 public:
     string Login() {
         int pin2;
@@ -26,7 +23,6 @@ public:
             return "No";
         }
     }
-
     void Accept() {
         cout<<"Enter your name: ";
         cin>>name;
@@ -35,7 +31,6 @@ public:
         cout<<"Enter your Course Name: ";
         cin>>coursename;
     }
-
     void Display() {
         cout<<"Student Information:"<<endl;
         cout<<"Name: "<< name<<endl;
@@ -43,7 +38,6 @@ public:
         cout<<"Course Name: "<<coursename<<endl;
     }
 };
-
 int main() {
     StudentInfo obj;
     obj.Message();
@@ -52,8 +46,8 @@ int main() {
         obj.Accept();
         obj.Display();
     } else {
-        cout << "Access Denied" << endl;
+        cout << "Access Denied"<<endl;
     }
-
     return 0;
-}
+}*/
+
