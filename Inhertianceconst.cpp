@@ -10,7 +10,7 @@ class Parent {
         cout<<"\n Parent Class Constructor called:";
     }
     public:~Parent(){//Base Class
-        cout<<"\n Parent Class Destructor called:";l
+        cout<<"\n Parent Class Destructor called:";
     }
     void Fun1(){//Base class function.
         cout<<"\n Parent class Function";
