@@ -22,7 +22,7 @@ f. Create a function with name FinalResult(), candiates scored more 12 ponits ar
  */
 
 #include <iostream>
-using namespace std;
+using namespace std;                                                                                                                       
 
 // Base class UG Course Class
 class UGCourse {
@@ -34,7 +34,7 @@ public:
     void SubjectList() {
         cout << "UG Course Subjects:\n";
         cout << "1. Mathematics\n2. Physics\n3. Chemistry\n";
-        cout << "Select a subject 1 to 3: ";
+        cout << "\n Select a subject 1 to 3: ";
         int choice;
         cin >> choice;
         switch (choice) {
@@ -55,7 +55,7 @@ public:
     }
 
     void MarksObtained1() {
-        cout << "Enter marks obtained in " << ugSubject;
+        cout << "Enter marks obtained in " << ugSubject<< ": ";
         cin >> ugMarks;
     }
 };
@@ -70,7 +70,7 @@ public:
         cout << "1. Data Science";
         cout<<"\n2. Artificial Intelligence";
         cout<<"\n3. Cyber Security";
-        cout << "Select a specialization 1 to 3:";
+        cout << "\n Select a specialization 1 to 3:";
         int choice;
         cin >> choice;
         switch (choice) {
@@ -90,7 +90,7 @@ public:
         cout << "You selected: " << pgSpecialization << endl;
     }
     void MarksObtained2() {
-        cout << "Enter marks obtained in " << pgSpecialization << ": ";
+        cout << "Enter marks obtained in  " << pgSpecialization << ": ";
         cin >> pgMarks;
     }
 };
@@ -105,7 +105,7 @@ public:
         cout << "1. Computer Science";
         cout<<"\n2. Electronics";
         cout<<"\n3. Mechanical\n";
-        cout << "Select a subject 1 to 3: ";
+        cout << "\n Select a subject 1 to 3: ";
         int choice;
         cin >> choice;
         switch (choice) {
@@ -122,10 +122,10 @@ public:
             cout << "Invalid choice!\n";
             return;
         }
-        cout << "You selected: " << diplomaCourse << endl;
+        cout << "\n You selected: " << diplomaCourse << endl;
     }
     void MarksObtained3() {
-        cout << "Enter marks obtained in " << diplomaCourse << ": ";
+        cout << "\n Enter marks obtained in " << diplomaCourse << ": ";
         cin >> diplomaMarks;
     }
 };
@@ -137,7 +137,7 @@ protected:
 
 public:
     void DiplomaMarks() {
-        cout << "Enter marks obtained in Diploma: ";
+        cout << "\n Enter marks obtained in Diploma: ";
         cin >> diplomaMarks;
     }
 
